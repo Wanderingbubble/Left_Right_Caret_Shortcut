@@ -1,4 +1,4 @@
-##Summary
+## Summary
 
 Basic ahk utility to move the caret (blinking line while typing) to left or right without using pinky finger or little finger to press the arrow keys miles away!
 In other words a simple utility to type without lifting you hand away from the usual typing area of keyboard.
