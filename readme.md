@@ -9,13 +9,17 @@ In other words a simple utility to type without lifting you hand away from the u
 1. Install Autohotkey from https://www.autohotkey.com/ 
 3. Download or clone the repositary or ahk file to your desktop from github (left_right_caret.ahk)
 
-#### Putting the ahk file in startup folder to start the ahk script everyday for regular use.
+#### Autostart ahk script on windows startup
+
+Putting the ahk file in startup folder of windows.
+
 2. Open windows run dialog by using cnrl-r 
 3. enter `Shell:startup` for the code to startup for a current user or `Shell:common startup` for code to startup for all users.
 4. paste the file "left_right_caret.ahk" in such startup folder
 
-#### giving the ahk script authority to work in notepads and other admin programs without asking permission every startup.
+#### Removing permission dialog on every startup by the ahk
 
+We need to give the ahk script authority to work in notepads and other admin programs without asking permission every startup.
 For this we need to change the script using from autohotkey.exe to AutoHotKeyU32_UIA. The latter can operate without Microsoft's permission dialog box every time.
 
 5. right click on the file "left_right_caret.ahk" in startup and select properties, remove read-only status.
